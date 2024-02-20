@@ -11,6 +11,8 @@ import {TodoList} from './pages/TodoList';
 import { Coins } from './pages/Coins';
 import { MovieApp } from './pages/MovieApp';
 import { Detail } from './pages/Detail';
+import {PirateShip3d} from './pages/PirateShip3d';
+import CarToon3d from './pages/CarToon3d';
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
       <Route path="/movieapp/:id" element={
         <Detail />
       } />
+      <Route path="/pirateship3d" element={<PirateShip3d />} />
+      <Route path="/cartoon3d" element={<CarToon3d />} />
     </Routes>
   );
 }
